@@ -10,4 +10,8 @@
 
     <string name="texto_boton_mexico">Clima de la ciudad de México</string>
     <string name="texto_boton_berlin">Clima de la ciudad de Berlín</string>
+    <string name="texto_boton_chetumal">Clima de la ciudad de Chetumal</string>
+    <string name="texto_boton_cancun">Clima de la ciudad de Cancún</string>
+    <string name="texto_boton_bacalar">Clima de la ciudad de Bacalar</string>
+    <string name="texto_boton_tulum">Clima de la ciudad de Tulum</string>
 </resources>

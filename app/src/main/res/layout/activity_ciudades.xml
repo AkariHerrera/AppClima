@@ -32,4 +32,36 @@
         android:layout_height="wrap_content"
         android:text="@string/texto_boton_berlin"
         android:textColor="#F134ab" />
+
+    <Button
+        android:id="@+id/bChetumal"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_chetumal"
+        android:textColor="#F134ab" />
+
+    <Button
+        android:id="@+id/bBacalar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_bacalar"
+        android:textColor="#F134ab" />
+
+    <Button
+        android:id="@+id/bTulum"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_tulum"
+        android:textColor="#F134ab" />
+
+    <Button
+        android:id="@+id/bCancun"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_cancun"
+        android:textColor="#F134ab" />
 </LinearLayout>
