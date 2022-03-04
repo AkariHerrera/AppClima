@@ -1,11 +1,10 @@
 package com.example.appclima
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class Ciudades : AppCompatActivity() {
 
@@ -24,32 +23,32 @@ class Ciudades : AppCompatActivity() {
 
         bMexico.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-mexico")
+            intent.putExtra(TAG, "3530597") //3530597
             startActivity(intent)
         })
         bBerlin.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-berlin")
+            intent.putExtra(TAG, "ciudadBerlin") //2950159
             startActivity(intent)
         })
         bChetumal.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-chetumal")
+            intent.putExtra(TAG, "ciudad-Chetumal") //3531023
             startActivity(intent)
         })
         bCancun.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-cancun")
+            intent.putExtra(TAG, "ciudad-Cancun") //3531673
             startActivity(intent)
         })
         bTulum.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-tulum")
+            intent.putExtra(TAG, "ciudad-Tulum") //3515040
             startActivity(intent)
         })
         bBacalar.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-bacalar")
+            intent.putExtra(TAG, "ciudad-Bacalar") //3532465
             startActivity(intent)
         })
     }
