@@ -28,7 +28,7 @@ class Ciudades : AppCompatActivity() {
         })
         bBerlin.setOnClickListener(View.OnClickListener{
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra(TAG, "ciudadBerlin") //2950159
+            intent.putExtra(TAG, "2950159") //2950159
             startActivity(intent)
         })
         bChetumal.setOnClickListener(View.OnClickListener{
